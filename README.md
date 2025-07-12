@@ -20,6 +20,13 @@ Given two unsynchronized videos of the same match from different camera angles, 
 4. **Visualization**  
    Top matches are visualized side-by-side and saved as `match_*.jpg` in the `matches/` folder.
 
+## Download best.pt
+
+This repository requires a pre-trained model file best.pt, which is not included in the repo due to GitHub’s 100 MB file size limit.
+
+Download Manually:
+https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view
+After downloading, Place the file in the root of the Project(Cross_Cam_Mapping/best.pt)
 
 ## How to Run
 
