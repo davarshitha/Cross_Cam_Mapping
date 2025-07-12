@@ -20,22 +20,6 @@ Given two unsynchronized videos of the same match from different camera angles, 
 4. **Visualization**  
    Top matches are visualized side-by-side and saved as `match_*.jpg` in the `matches/` folder.
 
-## Folder Structure
-Cross_Cam_Mapping/
-├── best.pt                  # YOLOv11 detection model
-├── detections/              # Cropped player images
-│   ├── broadcast/
-│   └── tacticam/
-├── features/                # ResNet50 feature embeddings
-├── matches/                 # Visualized match results
-├── utils/                   # Detection and matching scripts
-├── videos/                  # Input video files
-├── run_detection.py         # Runs YOLO on both videos
-├── run_matching.py          # Extracts features & matches players
-├── run_visualize.py         # Generates output visualizations
-├── requirements.txt         # Python dependencies
-├── README.md                # This file
-
 
 ## How to Run
 
